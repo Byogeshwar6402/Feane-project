@@ -1,0 +1,518 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    /* color: white; */
+    /* overflow: hidden; */
+}
+#container{
+    height: 100vh;
+    width: 100vw;
+    /* border: 2px solid black; */
+    background-image:url("./feaneimages/hero-bg.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+ 
+}
+nav{
+    /* border: 1px solid red; */
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#one{
+    flex-basis: 30%;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    font-family: "Dancing Script", cursive;
+    font-size: 16px;
+    color: white;
+}
+#two{
+    font-family: "Open Sans", sans-serif;
+    flex-basis: 40%;
+/* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    font-size: 93%;
+    color: white;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+#three{
+    flex-basis: 30%;
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+gap: 20px;
+}
+.fa-icon{
+    display: flex;
+    color: white;
+}
+#search{
+    border-radius: 22%;
+    height: 40px;
+    width: 110px;
+    background-color:#FFBE33;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    font-size: 13px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius:100px ;
+    border: none;
+}
+header{
+    height: 90vh;
+    padding-top: 100px;
+    padding-left: 400px;
+
+}
+#fast{
+    font-family: "Dancing Script", cursive;
+    color: white;
+    gap: 10px;
+    font-size: 45px;
+}
+#food{
+    font-family: "Open Sans", sans-serif;
+    color: white;
+    gap: 10px;
+    font-size: 13px;
+
+}
+#Now{
+    border-radius: 22%;
+    height: 40px;
+    width: 110px;
+    background-color:#FFBE33;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    font-size: 13px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius:100px ;
+    border: none; 
+    gap: 10px;
+
+}
+/* *    SECOND PAGE */
+#second{
+    /* border: 2px solid black; */
+    gap: 10px;
+}
+#offer{
+    /* border: 2px solid red; */
+    height: 35vh;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 30px;
+}
+figure{
+    padding-right: 90px;
+
+
+}
+
+.offer_img{
+    border: 2px solid #FFBE33;
+    border-radius: 50%;
+    height:110px;
+    overflow: hidden;
+}
+.offer_img:hover{
+    transition: all 200ms 0s ease ; 
+    transform: scale(1.08);
+
+}
+.offer_container{
+    /* border: 2px solid blue; */
+    height: 140px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ background-color: #222831;
+ color: white;
+ gap: -30px;
+
+}
+.offer_two{
+    font-size: 20px;
+}
+.offer_title{
+    font-size: 24px;
+    font-family: "Dancing Script", cursive;
+}
+span{
+    font-size: 40px;
+    font-family: "Dancing Script", cursive;
+
+}
+.offer_percentage{
+    font-family: "Dancing Script", cursive;
+    font-weight: 1000;
+}
+.offer_btn,#viewmore{
+    border-radius: 22%;
+    height: 40px;
+    width: 110px;
+    background-color:#FFBE33;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    font-size: 13px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius:100px ;
+    border: none; 
+    gap: 10px;
+
+}
+
+/* $SECTION 1 */
+#our_menu{
+    /* border: 2px solid red; */
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 130px;
+}
+#our_menu>h1{
+    display: flex;
+     justify-content: center;
+     align-items: center;
+    font-family: "Dancing Script", cursive;
+    font-size:35px;
+}
+#food_section{
+    /* border: 2px solid red; */
+    height: 50px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 40px;
+     font-weight: 300;
+}
+#food_section>a{
+    color: #222831;
+}
+#food_section>a:first-child{
+    /* border: 2px solid black;  */
+    display: flex;
+    justify-content: center;
+     align-items: center;
+     width: 50px;
+     height: 25px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius:100px ;
+    height: 30px;
+    width: 60px;
+    /* border: 2px solid black; */
+    padding-left: 5px;
+    padding-top: 3px;
+    color: white;
+    background-color: #222831;
+}
+.card_container{
+    padding-top: 35px;
+    height: 175vh;
+    width: 100vw;
+    /* border: 2px solid black; */
+    padding-left: 348px;
+    display: grid;
+    grid-template-columns: repeat(3,300px);
+    row-gap: -10px;
+    column-gap: 10px;
+}
+.card{ 
+    height: 360px;
+    width: 280px;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    background-color: #0C0C0C;
+    border-radius: 20px;
+}
+.food_img_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 50%;
+    background-color: #f1f2f3;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    overflow: hidden;
+}
+.food_img_container>div>img:hover{
+    /* animation: food_img 2s ease 0s 1; */
+    transition: all 100ms ease-in 0s;
+    transform: scale(1.05);
+
+}
+
+.food_img_container>div>img{
+    height: 150px;
+    width: 158px;
+}
+
+.aside_3{
+    /* border: 2px solid black; */
+    flex-basis: 35%;
+    padding-top:10px;
+    padding-left:10px;
+}
+.aside_3>div>h2{
+    /* border: 2px solid blue; */
+    padding: 5px;
+    color: white;
+    
+}
+.food_price_cart{
+    /* border: 2px solid green; */
+    flex-basis: 15%;
+    display:flex;
+    justify-content: space-between;
+     padding-left: 10px;
+     padding-right: 10px;
+}
+.food_price{
+    color: white;
+    font-family: "Open Sans", sans-serif;
+}
+.food_title{
+    font-family: "Open Sans", sans-serif;
+    color: white;
+    font-size: 18px;
+}
+.food_desc{
+    font-family: "Open Sans", sans-serif;
+    color: white;
+    font-size: 13px;
+}
+.food_cart{
+    height: 35px;
+    width: 35px;
+    /* border: 2px solid black; */
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFBE33;
+    color: white;
+
+}
+#viewmore{
+ display: flex;
+ justify-content: center;
+ position: relative;
+ left: 710px;
+ font-size: 14px;
+ width: 180px;
+ height: 40px;
+}
+
+/* @SECTION 2 */
+#two_2{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0C0C0C;
+    color: #f1f2f3;
+}
+.mad{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 50%;
+
+}
+.mad>img{
+    height:600px ;
+    width: 600px;
+    flex-basis: 50%;
+    padding-left: 200px ;
+}
+.sad{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 50%;
+    gap: 20px;
+
+}
+.look_ht{
+    /* display: flex;
+    justify-content:center;
+    align-items: center; */
+    gap: 50px;
+
+}
+.we_are{
+    font-size: 40px;
+    
+     font-family: "Dancing Script", cursive;
+     padding-bottom: 10px;
+
+}
+.there_are{
+    font-size: 15px;
+    padding: 10px;
+    font-family: "Open Sans", sans-serif;
+}
+#Read{
+        border-radius: 22%;
+    height: 40px;
+    width: 110px;
+    background-color:#FFBE33;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    font-size: 13px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius:100px ;
+    border: none; 
+    gap: 10px;
+
+}
+
+
+/*!SECTION 3   */
+#three_3{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(240, 248, 255, 0.467);
+}
+.table_3{
+    flex-basis: 10%;
+     display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    /* border: 2px solid red;    */
+    padding-left: 240px;
+    padding-top: 10px;
+
+    
+}
+#Book{
+    font-size: 40px;
+    font-weight: 1000px;
+    color: #FFBE33;
+     font-family: "Dancing Script", cursive;
+}
+#art{
+flex-basis: 70%;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+/* flex-direction: column; */
+    /* padding-top: 100px; */
+
+}
+.art_cl{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* border: 2px solid red; */
+    height:70vh;
+    width: 50%;
+}
+.art_cl>input{
+    height: 40px;
+    width: 40%;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.582);
+
+}
+#HowManyPersons{
+      height: 40px;
+    width: 40%;
+     border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.582);
+
+}
+
+.iframe_src{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+     height:70vh;
+      width: 50%;
+
+} 
+#iframe{
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius:15px ;
+  
+}
+.btn_3{
+ flex-basis: 10%;
+    /* border: 2px solid red; */
+     padding-left: 230px;
+}
+#Now_3{
+   
+     border-radius: 10%;
+    height: 43px;
+    width: 160px;
+    background-color:#FFBE33;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    font-size: 13px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius:100px ;
+    border: none; 
+    gap: 10px;  
+    /* flex-basis: 10px; */
+}
+.div_3{
+/* flex-basis: 30%; */
+display: flex;
+justify-content: center;
+align-items: center;
+/* border: 2px solid red; */
+ font-family: "Dancing Script", cursive;
+ font-size: 34px;
+}
+
+
